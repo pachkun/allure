@@ -33,5 +33,5 @@ def test_with_nested_steps():
 
 
 def test_multiple_attachments():
-    allure.attach.file('./data/totally_open_source_kitten.png', attachment_type=allure.attachment_type.PNG)
+    allure.attach.file('./data/image0.jpg', attachment_type=allure.attachment_type.PNG)
     allure.attach('<head></head><body> a page </body>', 'Attach with HTML type', allure.attachment_type.HTML)
