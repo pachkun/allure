@@ -31,6 +31,9 @@ def test_with_nested_steps():
     step_with_nested_steps()
     assert False
 
+def test_sum():
+    assert 1 + 1 == 3
+
 
 def test_multiple_attachments():
     allure.attach.file('./data/image0.jpg', attachment_type=allure.attachment_type.PNG)
